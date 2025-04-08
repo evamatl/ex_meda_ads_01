@@ -5,7 +5,7 @@ concurrency: 'ci-${{ github.ref }}'
 env:
     APP_IMAGE: keboola-component
     KBC_DEVELOPERPORTAL_VENDOR: cnc
-    KBC_DEVELOPERPORTAL_APP: cnc.ex_meta_ads_dim
+    KBC_DEVELOPERPORTAL_APP: cnc.ex-meta-ads-dim
     KBC_DEVELOPERPORTAL_USERNAME: cnc+ex_meta_ads_dim
     KBC_DEVELOPERPORTAL_PASSWORD: '${{ secrets.KBC_DEVELOPERPORTAL_PASSWORD }}'
     DOCKERHUB_USER: ''
