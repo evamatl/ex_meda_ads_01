@@ -6,7 +6,7 @@ env:
     APP_IMAGE: keboola-component
     KBC_DEVELOPERPORTAL_VENDOR: cnc
     KBC_DEVELOPERPORTAL_APP: cnc.ex_meta_ads_dim
-    KBC_DEVELOPERPORTAL_USERNAME: cdn+ex_meta_ads_dim
+    KBC_DEVELOPERPORTAL_USERNAME: cnc+ex_meta_ads_dim
     KBC_DEVELOPERPORTAL_PASSWORD: '${{ secrets.KBC_DEVELOPERPORTAL_PASSWORD }}'
     DOCKERHUB_USER: ''
     DOCKERHUB_TOKEN: '${{ secrets.DOCKERHUB_TOKEN }}'
